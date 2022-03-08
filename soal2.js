@@ -9,11 +9,11 @@ let checkTypeNumber = (givenNumber) => {
     }
 
     else if ((typeof givenNumber === "undefined")) {
-        return "Bro where is the paramater?"
+        return "Eror: Bro where is the paramater?"
     }
 
     else {
-        return "invalid data type"
+        return "Eror: invalid data type"
     }
 
 }
