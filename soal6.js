@@ -12,3 +12,5 @@ let getAngkaTerbesarKedua = (dataAngka) => {
 const dataAngka = [9,4,7,7,4,3,2,2,8]
 
 getAngkaTerbesarKedua(dataAngka)
+getAngkaTerbesarKedua(0)
+getAngkaTerbesarKedua()
