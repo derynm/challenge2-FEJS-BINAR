@@ -20,9 +20,9 @@ const getInfoPenjualan = (array) => {
     let terlaris = array.find((value) => value.totalTerjual==bukuTerlaris)
     
     let infoPenjual = {
-        'totalKeuntungan' : untung,
-        'totalModal' : totalBeli,
-        'persentaseKeuntungan' : untungPersen,
+        'totalKeuntungan' : `Rp.${untung}`,
+        'totalModal' : `Rp.${totalBeli}`,
+        'persentaseKeuntungan' : `${untungPersen}%`,
         'produkTerlaris' : terlaris.namaProduk,
         'penulisTerlaris' : terlaris.penulis
     }
